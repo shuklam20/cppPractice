@@ -5,11 +5,10 @@ using namespace std;
 
 int main()
 {
-  int n, bin;
+	int n, bin, total = 0, t = 0, s = 0;
 	cout << "enter the number:" << endl;
 	cin >> n;
 	cout << "binary for " << n << " is ";
-  
 	while (n > 0)
 	{
 		bin = n % 2;

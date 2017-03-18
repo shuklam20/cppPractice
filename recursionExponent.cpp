@@ -9,7 +9,7 @@ int exponential(int n, int p)
 	else return n*exponential(n, p - 1);
 }
 
-int main()
+void main()
 {
   int n, p;
   cout << "Enter the number:" << endl;
